@@ -20,5 +20,7 @@ public class authorization_avito {
         driver.findElement(By.xpath("//input[@name='password']")).sendKeys("sadw7799");
         driver.findElement(By.xpath("//button[@name='submit']")).click();
 
+        driver.quit();
+
     }
 }
